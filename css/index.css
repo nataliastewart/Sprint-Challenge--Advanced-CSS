@@ -273,6 +273,8 @@ footer {
   .home .walk {
     display: flex;
     flex-direction: column-reverse;
+    padding: 0px 3%;
+    margin-top: 20px;
   }
 }
 .home .walk .walk-text {
@@ -306,6 +308,13 @@ footer {
   color: black ;
   border: 1px solid black;
 }
+@media (max-width:500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    margin-left: 3px;
+    border-radius: 5px;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -313,6 +322,8 @@ footer {
 @media (max-width:500px) {
   .home .walk .walk-img {
     width: 100%;
+    margin-left: 0;
+    padding-bottom: 3%;
   }
 }
 .home .walk .walk-img img {

@@ -65,6 +65,8 @@
     @media @phone{
       display: flex;
       flex-direction: column-reverse;
+      padding: 0px 3%;
+      margin-top:20px;
     }
 
     .walk-text {
@@ -83,7 +85,12 @@
       }
 
       .btn {
-        .custom-btn(black, 100px, white)
+        .custom-btn(black, 100px, white);
+        @media @phone{
+          width: 100%;
+         margin-left:3px;
+         border-radius:5px;
+        }
         
       }
     }
@@ -93,7 +100,9 @@
       margin-left: 4%;
       @media @phone{
         width: 100%;
-        
+        margin-left: 0;
+        padding-bottom:3%;
+
       }
       
       img {
