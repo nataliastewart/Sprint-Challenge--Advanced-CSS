@@ -1,6 +1,9 @@
 .centered {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -132,6 +135,7 @@ table {
 }
 * {
   box-sizing: border-box;
+  max-width: 100%;
 }
 html {
   font-size: 62.5%;
@@ -164,10 +168,19 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
+}
 nav a {
   text-decoration: none;
   color: black;
   font-size: 1.6rem;
+  justify-content: space-between;
 }
 footer {
   color: #22283B;
