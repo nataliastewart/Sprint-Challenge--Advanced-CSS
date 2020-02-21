@@ -47,9 +47,20 @@ This approach means designing for the highest specifications — the best achiev
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Usually default font-size of the browser is 16px. Setting font-size: 100% will make 1rem = 16px. But it will make calculations a little difficult. A better way is to set font-size: 62.5%. Because 62.5% of 16px is 10px. Which makes 1rem = 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+CSS Preprocessors compile the code which is written using a special compiler, and then use that to create a css file, which can then be refereneced by the main HTML document.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Favorite:
+A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax. will add some features that don't exist in pure CSS, such as mixin, nesting selector, inheritance selector, and so on.
+
+Most Trouble:
+CSS Preprocessors compile the code which is written using a special compiler.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
