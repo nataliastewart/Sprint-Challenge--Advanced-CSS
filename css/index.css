@@ -5,6 +5,11 @@
   justify-content: center;
   justify-content: space-around;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -135,7 +140,6 @@ table {
 }
 * {
   box-sizing: border-box;
-  max-width: 100%;
 }
 html {
   font-size: 62.5%;
@@ -175,6 +179,7 @@ nav {
   justify-content: center;
   justify-content: space-around;
   width: 100%;
+  padding: 2% 35%;
 }
 nav a {
   text-decoration: none;
