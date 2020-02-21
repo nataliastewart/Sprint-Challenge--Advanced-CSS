@@ -14,3 +14,26 @@
     flex-direction:row;
     justify-content: space-around;
 }
+
+
+
+.custom-btn(@bg-color, @width, @font-color){
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color:@bg-color;
+  margin:0 10px 20px;
+  width:@width;
+  height: 45px;
+  font-size:2rem;
+  border-radius:10px;
+  color:@font-color;
+
+  &:hover{
+    background-color:white ;
+    color:black ;
+    border:1px solid black;
+  }
+
+
+}
